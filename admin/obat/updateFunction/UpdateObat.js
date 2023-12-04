@@ -1,6 +1,6 @@
 import { getValue } from "https://jscroot.github.io/element/croot.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
-import { urlPUT, AmbilResponse } from "./urlPutObat";
+import { urlPUT, AmbilResponse } from "../updateFunction/urlPutObat";
 
 console.log("hadeer");
 

@@ -24,9 +24,9 @@
 //   };
 // get(urlFetch, isiData);
 
-import { isiData } from "./editObat.js";
+import { isiData } from "../updateFunction/editObat.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
-import { urlFetch } from "./urlEditObat.js";
+import { urlFetch } from "../updateFunction/urlEditObat.js";
 
 function get(target_url, responseFunction) {
   const myHeaders = new Headers();
