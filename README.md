@@ -16,7 +16,6 @@ The repository is organized into several folders, each serving a specific purpos
 4. **element:** Consists of JavaScript files for dropdown elements.
 5. **pengguna:** Contains a JavaScript function for retrieving user data.
 6. **post:** Adds the `signupDriver` function for driver sign-up in the post section.
-   [Add information about other folders as needed]
 
 ## Installation
 
