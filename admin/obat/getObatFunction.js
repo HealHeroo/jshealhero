@@ -1,4 +1,4 @@
-import { URLGetObat, responseData } from "../obat/getObat";
+import { URLGetObat, responseData } from "../obat/getObat.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 import { hide } from "https://jscroot.github.io/element/croot.js";
 
