@@ -4,7 +4,7 @@ This repository contains the JavaScript codebase for the HealHero application.
 
 ## Overview
 
-JsHealHero is a JavaScript-based application designed to [provide a brief description of the purpose and features of the application].
+JsHealHero is a JavaScript-based application designed to provide a brief description of the purpose and features of the application.
 
 ## Folder Structure
 
