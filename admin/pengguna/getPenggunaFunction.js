@@ -1,4 +1,4 @@
-import { URLGetPengguna, responseData } from "./getPengguna.js";
+import { URLGetPengguna, responseData } from "../pengguna/getPengguna";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 import { hide } from "https://jscroot.github.io/element/croot.js";
 
