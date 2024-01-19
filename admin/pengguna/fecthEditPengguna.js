@@ -1,4 +1,4 @@
-import { isiData } from "../pengguna/editPengguna.js";
+import { isiData } from "https://cdn.jsdelivr.net/gh/HealHeroo/jshealhero@0.3.3/admin/pengguna/editPengguna.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 import { urlFetch } from "../pengguna/urlEditPengguna.js";
 
