@@ -1,4 +1,4 @@
-import { isiData } from "../driver/editDriver.js";
+import { isiData } from "https://cdn.jsdelivr.net/gh/HealHeroo/jshealhero@0.3.5/admin/driver/editDriver.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 import { urlFetch } from "../driver/urlEditDriver.js";
 
