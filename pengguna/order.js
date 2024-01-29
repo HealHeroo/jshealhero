@@ -5,8 +5,7 @@ import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 let datainjson;
 
 const postOrder = () => {
-  const target_url =
-    "https://asia-southeast2-peak-equator-402307.cloudfunctions.net/pesanan";
+  const target_url = "https://asia-southeast2-peak-equator-402307.cloudfunctions.net/pesanan";
   const tokenvalue = getCookie("Authorization");
   const tokenkey = "Authorization";
 
@@ -18,7 +17,7 @@ const postOrder = () => {
     quantity: getValue("quantity"),
     harga: getValue("harga"),
     totalharga: getValue("totalharga"),
-    status: "Dikirim oleh Kurir", 
+    status: "Berhasil, orderan diproses ya kak",
   };
 
   postWithToken(target_url, tokenkey, tokenvalue, datainjson, responseData);
@@ -34,10 +33,9 @@ const responseData = (result) => {
     }).then(() => {
       // window.location.reload();
       const queryString = Object.entries(datainjson)
-    .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
-    .join('&');
-     window.location.href = `keranjang.html?${queryString}`;
-
+        .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
+        .join("&");
+      window.location.href = `keranjang.html?${queryString}`;
     });
   } else {
     Swal.fire({
