@@ -24,7 +24,7 @@
 //   };
 // get(urlFetch, isiData);
 
-import { isiData } from "../obat/editObat.js";
+import { isiData } from "https://cdn.jsdelivr.net/gh/HealHeroo/jshealhero@0.4.2/admin/obat/editObat.js";
 import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
 import { urlFetch } from "../obat/urlEditObat.js";
 
